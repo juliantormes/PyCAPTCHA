@@ -1,0 +1,24 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/dataset_*": true,
+        "**/checkpoints_*": true,
+        "**/lightning_logs": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "search.exclude": {
+        "**/dataset_*": true,
+        "**/checkpoints_*": true,
+        "**/lightning_logs": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "files.watcherExclude": {
+        "**/dataset_*/**": true,
+        "**/checkpoints_*/**": true,
+        "**/lightning_logs/**": true,
+        "**/__pycache__/**": true
+    }
+}

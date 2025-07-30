@@ -1,9 +1,47 @@
+# Dataset directories (contains thousands of generated images)
 dataset/
+dataset_sssalud/
+dataset_sssalud_v2/
+dataset_*/
+
+# Python cache and logs
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
 logs/
 onechar/
+*.log
+events.out*
+
+# Jupyter notebooks
 test.ipynb
+*.ipynb
+
+# Model files and checkpoints
 *.pth
 *.ckpt
-*.ipynb
-events.out*
+checkpoints/
+checkpoints_sssalud/
+checkpoints_advanced/
+checkpoints_*/
+
+# Lightning logs
+lightning_logs/
+
+# Generated analysis files
+captcha_results_analysis.csv
+*.csv
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Virtual environment (if not using global ignore)
+.venv/
+venv/
+env/
