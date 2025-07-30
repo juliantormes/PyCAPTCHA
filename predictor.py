@@ -6,6 +6,7 @@ import torchvision.transforms as transforms
 from PIL import Image
 
 transform = transforms.Compose([
+        transforms.Resize((60, 160)),  # Ensure correct size
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])
@@ -14,14 +15,16 @@ def predict(args):
     model = captcha_model.load_from_checkpoint(args.ckpt, model=model_resnet())
     model.eval()
     
-    img = transform(Image.open(args.input))
+    # Open image and convert to RGB to handle different formats
+    img = Image.open(args.input).convert('RGB')
+    img = transform(img)
     img = img.unsqueeze(0)
     y = model(img)
     y = y.permute(1, 0, 2)
     pred = y.argmax(dim=2)
 
     ans = lst_to_str(pred)
-    print(ans)
+    print(f"Predicted CAPTCHA: {ans}")
     return ans
 
 

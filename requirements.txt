@@ -1,6 +1,11 @@
-pytorch-lightning==1.6.0rc0
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+torchaudio==2.3.1+cu121
+pytorch-lightning>=2.0.0
+tensorboard
 captcha
 pyyaml
 pillow
-tqdm
+numpy<2
+matplotlib
 wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability

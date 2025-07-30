@@ -1,0 +1,19 @@
+DATASET:
+  DATASET_DIR: './dataset_sssalud_v2'
+  TRAINING_DIR: './dataset_sssalud_v2/train'
+  TESTING_DIR: './dataset_sssalud_v2/val'
+
+  TRAINING_DATASET_LEN: 100000  # Increased for better learning
+  TESTING_DATASET_LEN: 2000
+
+  CAPTCHA:
+    FONT_DIR: './fonts/font1.ttf'
+    IMG_HEIGHT: 60
+    IMG_WIDTH: 240
+    CLASS_NUM: 36
+    CHAR_LEN: 6
+
+SOLVER:
+  LR: 3.0e-4  # Slightly lower learning rate for fine-tuning
+  BATCH_SIZE: 256
+  EPOCH: 12  # More epochs for better convergence

@@ -23,14 +23,13 @@ def main(arg):
         args.log_dir, name=args.exp_name, version=2, default_hp_metric=False)
         
     trainer = pl.Trainer(deterministic=True,
-                         gpus=args.gpus,
-                         auto_select_gpus=True,
-                         precision=32,
+                         devices=args.gpus if args.gpus != -1 else "auto",
+                         accelerator='gpu' if args.gpus > 0 else 'cpu',
+                         precision='32-true',
                          logger=tb_logger,
                          fast_dev_run=False,
                          max_epochs=epoch,
                          log_every_n_steps=50,
-                         stochastic_weight_avg=True
                          )
     trainer.fit(model, datamodule=dm)
     os.makedirs(args.save_path, exist_ok=True)
