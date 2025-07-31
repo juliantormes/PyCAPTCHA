@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)  # Suppress torchvision warnings
+
 from model.model import captcha_model, model_conv, model_resnet
 from utils.arg_parsers import predict_arg_parser
 from data.dataset import str_to_vec, lst_to_str

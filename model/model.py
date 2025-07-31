@@ -68,7 +68,7 @@ class captcha_model(pl.LightningModule):
 class model_resnet(torch.nn.Module):
     def __init__(self):
         super(model_resnet, self).__init__()
-        self.resnet = models.resnet18(pretrained=False)
+        self.resnet = models.resnet18(weights=None)  # Fixed deprecated 'pretrained' parameter
         self.resnet.fc = nn.Linear(512, CHAR_LEN*CLASS_NUM)
 
     def forward(self, x):
