@@ -1,0 +1,768 @@
+[
+  {
+    "model_info": {
+      "path": "legacy/checkpoints_sssalud\\model.pth",
+      "size_mb": 129.29944610595703,
+      "hash": "804b0dfd",
+      "epoch": 8,
+      "best_acc": "N/A",
+      "char_acc": "N/A",
+      "val_loss": "N/A",
+      "num_classes": 36,
+      "vocabulary": "36 (0-9, a-z)"
+    },
+    "error": "Failed to load"
+  },
+  {
+    "model_info": {
+      "path": "models\\01_baseline\\model.pth",
+      "size_mb": 129.29944610595703,
+      "hash": "aa62632d",
+      "epoch": 5,
+      "best_acc": "N/A",
+      "char_acc": "N/A",
+      "val_loss": "N/A",
+      "num_classes": 36,
+      "vocabulary": "36 (0-9, a-z)"
+    },
+    "error": "Failed to load"
+  },
+  {
+    "model_info": {
+      "path": "models\\02_advanced\\model.pth",
+      "size_mb": 129.29950714111328,
+      "hash": "7fae1727",
+      "epoch": 12,
+      "best_acc": "N/A",
+      "char_acc": "N/A",
+      "val_loss": "N/A",
+      "num_classes": 36,
+      "vocabulary": "36 (0-9, a-z)"
+    },
+    "error": "Failed to load"
+  },
+  {
+    "model_info": {
+      "path": "models\\03_specialized_sssalud\\model.pth",
+      "size_mb": 129.29944610595703,
+      "hash": "804b0dfd",
+      "epoch": 8,
+      "best_acc": "N/A",
+      "char_acc": "N/A",
+      "val_loss": "N/A",
+      "num_classes": 36,
+      "vocabulary": "36 (0-9, a-z)"
+    },
+    "error": "Failed to load"
+  },
+  {
+    "model_info": {
+      "path": "models\\fast_gpu\\best_model_epoch_01_acc_0.934.pth",
+      "size_mb": 130.22341346740723,
+      "hash": "9878309f",
+      "epoch": 1,
+      "best_acc": 0.9335186332464218,
+      "char_acc": 0.9884315133094788,
+      "val_loss": 0.12553977500647306,
+      "num_classes": 62,
+      "vocabulary": "62 (0-9, a-z, A-Z)"
+    },
+    "predictions": {
+      "1.png": {
+        "predicted": "1zzzTi",
+        "confidence": 0.46490711718797684,
+        "true_label": "UKhGh9",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "2.png": {
+        "predicted": "1svzTi",
+        "confidence": 0.39699967205524445,
+        "true_label": "26WanS",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "3.png": {
+        "predicted": "zzzzri",
+        "confidence": 0.4898915116985639,
+        "true_label": "e4TkHP",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "4.png": {
+        "predicted": "LLLLsL",
+        "confidence": 0.403688907623291,
+        "true_label": "cGfFE2",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "5.png": {
+        "predicted": "1izN7z",
+        "confidence": 0.31646519899368286,
+        "true_label": "gnRYZe",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "6.png": {
+        "predicted": "2czLcz",
+        "confidence": 0.3996816650032997,
+        "true_label": "v76Ebu",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "7.png": {
+        "predicted": "7jz72V",
+        "confidence": 0.24484968557953835,
+        "true_label": "DUzp49",
+        "char_accuracy": 0.16666666666666666,
+        "perfect_match": false
+      },
+      "8.png": {
+        "predicted": "nNzzru",
+        "confidence": 0.3780522917707761,
+        "true_label": "MWR3mw",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "9.png": {
+        "predicted": "1zzUUI",
+        "confidence": 0.42781002447009087,
+        "true_label": "3h2vUF",
+        "char_accuracy": 0.16666666666666666,
+        "perfect_match": false
+      },
+      "10.png": {
+        "predicted": "TzzLnn",
+        "confidence": 0.3512614667415619,
+        "true_label": "t2md2m",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "11.png": {
+        "predicted": "1Leln1",
+        "confidence": 0.477813055117925,
+        "true_label": "UNKNOWN"
+      },
+      "12.png": {
+        "predicted": "hIsimi",
+        "confidence": 0.29231391847133636,
+        "true_label": "UNKNOWN"
+      },
+      "13.png": {
+        "predicted": "Lrrzzz",
+        "confidence": 0.3951176628470421,
+        "true_label": "UNKNOWN"
+      },
+      "14.png": {
+        "predicted": "hozzrc",
+        "confidence": 0.3794913689295451,
+        "true_label": "UNKNOWN"
+      },
+      "15.png": {
+        "predicted": "1sLLij",
+        "confidence": 0.42538835604985553,
+        "true_label": "UNKNOWN"
+      },
+      "16.png": {
+        "predicted": "Jzzzzz",
+        "confidence": 0.5566045468052229,
+        "true_label": "UNKNOWN"
+      },
+      "17.png": {
+        "predicted": "zsY7r1",
+        "confidence": 0.3324536010622978,
+        "true_label": "UNKNOWN"
+      },
+      "18.png": {
+        "predicted": "T7zL0r",
+        "confidence": 0.31828759983181953,
+        "true_label": "UNKNOWN"
+      },
+      "19.png": {
+        "predicted": "1Izzi5",
+        "confidence": 0.5808250655730566,
+        "true_label": "UNKNOWN"
+      },
+      "20.png": {
+        "predicted": "c7z9MZ",
+        "confidence": 0.19854000707467398,
+        "true_label": "UNKNOWN"
+      }
+    },
+    "perfect_matches": 0,
+    "known_captchas": 10,
+    "total_char_accuracy": 0.3333333333333333,
+    "avg_confidence": 0.39152213614434,
+    "errors": [],
+    "avg_char_accuracy": 0.03333333333333333,
+    "perfect_match_rate": 0.0
+  },
+  {
+    "model_info": {
+      "path": "models\\fast_gpu\\best_model_epoch_02_acc_0.978.pth",
+      "size_mb": 130.22341346740723,
+      "hash": "f11549f2",
+      "epoch": 2,
+      "best_acc": 0.9776141867041588,
+      "char_acc": 0.9961062893271446,
+      "val_loss": 0.03595657576806843,
+      "num_classes": 62,
+      "vocabulary": "62 (0-9, a-z, A-Z)"
+    },
+    "predictions": {
+      "1.png": {
+        "predicted": "JzzTii",
+        "confidence": 0.5515682051579157,
+        "true_label": "UKhGh9",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "2.png": {
+        "predicted": "izvNii",
+        "confidence": 0.35205283015966415,
+        "true_label": "26WanS",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "3.png": {
+        "predicted": "LLzzzi",
+        "confidence": 0.5623196338613828,
+        "true_label": "e4TkHP",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "4.png": {
+        "predicted": "LLLlLL",
+        "confidence": 0.5772085239489874,
+        "true_label": "cGfFE2",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "5.png": {
+        "predicted": "tizNlZ",
+        "confidence": 0.4844080035885175,
+        "true_label": "gnRYZe",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "6.png": {
+        "predicted": "2CzSSi",
+        "confidence": 0.37975433220465976,
+        "true_label": "v76Ebu",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "7.png": {
+        "predicted": "jQZzpp",
+        "confidence": 0.3062688584129016,
+        "true_label": "DUzp49",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "8.png": {
+        "predicted": "NmIzLF",
+        "confidence": 0.4570052921772003,
+        "true_label": "MWR3mw",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "9.png": {
+        "predicted": "2iiUUI",
+        "confidence": 0.4432939241329829,
+        "true_label": "3h2vUF",
+        "char_accuracy": 0.16666666666666666,
+        "perfect_match": false
+      },
+      "10.png": {
+        "predicted": "Tzi2nj",
+        "confidence": 0.4378767212231954,
+        "true_label": "t2md2m",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "11.png": {
+        "predicted": "LLeciI",
+        "confidence": 0.476396972934405,
+        "true_label": "UNKNOWN"
+      },
+      "12.png": {
+        "predicted": "IIjsiI",
+        "confidence": 0.3975682159264882,
+        "true_label": "UNKNOWN"
+      },
+      "13.png": {
+        "predicted": "LlrzzF",
+        "confidence": 0.5991659114758173,
+        "true_label": "UNKNOWN"
+      },
+      "14.png": {
+        "predicted": "IzTirc",
+        "confidence": 0.4489479350546996,
+        "true_label": "UNKNOWN"
+      },
+      "15.png": {
+        "predicted": "zzzUii",
+        "confidence": 0.5230893939733505,
+        "true_label": "UNKNOWN"
+      },
+      "16.png": {
+        "predicted": "szzTLi",
+        "confidence": 0.4204019953807195,
+        "true_label": "UNKNOWN"
+      },
+      "17.png": {
+        "predicted": "bss7pp",
+        "confidence": 0.4004664793610573,
+        "true_label": "UNKNOWN"
+      },
+      "18.png": {
+        "predicted": "tizLLj",
+        "confidence": 0.4489853431781133,
+        "true_label": "UNKNOWN"
+      },
+      "19.png": {
+        "predicted": "ZlzziE",
+        "confidence": 0.5431703627109528,
+        "true_label": "UNKNOWN"
+      },
+      "20.png": {
+        "predicted": "L27SsD",
+        "confidence": 0.39599574853976566,
+        "true_label": "UNKNOWN"
+      }
+    },
+    "perfect_matches": 0,
+    "known_captchas": 10,
+    "total_char_accuracy": 0.16666666666666666,
+    "avg_confidence": 0.4602972341701389,
+    "errors": [],
+    "avg_char_accuracy": 0.016666666666666666,
+    "perfect_match_rate": 0.0
+  },
+  {
+    "model_info": {
+      "path": "models\\fast_gpu\\best_model_epoch_03_acc_0.978.pth",
+      "size_mb": 130.22341346740723,
+      "hash": "463b84ad",
+      "epoch": 3,
+      "best_acc": 0.9782902672886848,
+      "char_acc": 0.9962189793586731,
+      "val_loss": 0.02456118306145072,
+      "num_classes": 62,
+      "vocabulary": "62 (0-9, a-z, A-Z)"
+    },
+    "predictions": {
+      "1.png": {
+        "predicted": "Jzzzni",
+        "confidence": 0.43965982149044674,
+        "true_label": "UKhGh9",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "2.png": {
+        "predicted": "ilvvTi",
+        "confidence": 0.5947707792123159,
+        "true_label": "26WanS",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "3.png": {
+        "predicted": "JLzzrr",
+        "confidence": 0.404988872508208,
+        "true_label": "e4TkHP",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "4.png": {
+        "predicted": "crLLFc",
+        "confidence": 0.4971596747636795,
+        "true_label": "cGfFE2",
+        "char_accuracy": 0.16666666666666666,
+        "perfect_match": false
+      },
+      "5.png": {
+        "predicted": "zrzlIj",
+        "confidence": 0.30993979424238205,
+        "true_label": "gnRYZe",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "6.png": {
+        "predicted": "elLsci",
+        "confidence": 0.4741231103738149,
+        "true_label": "v76Ebu",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "7.png": {
+        "predicted": "gjZIp0",
+        "confidence": 0.38594640294710797,
+        "true_label": "DUzp49",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "8.png": {
+        "predicted": "nnISru",
+        "confidence": 0.3782481973369916,
+        "true_label": "MWR3mw",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "9.png": {
+        "predicted": "2Itcjj",
+        "confidence": 0.4930161734422048,
+        "true_label": "3h2vUF",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "10.png": {
+        "predicted": "Ditwnj",
+        "confidence": 0.3692203623553117,
+        "true_label": "t2md2m",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "11.png": {
+        "predicted": "Lrelnj",
+        "confidence": 0.6409600675106049,
+        "true_label": "UNKNOWN"
+      },
+      "12.png": {
+        "predicted": "IIsrmI",
+        "confidence": 0.5679692278305689,
+        "true_label": "UNKNOWN"
+      },
+      "13.png": {
+        "predicted": "hIreeF",
+        "confidence": 0.5490044355392456,
+        "true_label": "UNKNOWN"
+      },
+      "14.png": {
+        "predicted": "IIzIrc",
+        "confidence": 0.6059607267379761,
+        "true_label": "UNKNOWN"
+      },
+      "15.png": {
+        "predicted": "1ssLTj",
+        "confidence": 0.41287197917699814,
+        "true_label": "UNKNOWN"
+      },
+      "16.png": {
+        "predicted": "ozzn0i",
+        "confidence": 0.45625099291404086,
+        "true_label": "UNKNOWN"
+      },
+      "17.png": {
+        "predicted": "5DsIpv",
+        "confidence": 0.3045368293921153,
+        "true_label": "UNKNOWN"
+      },
+      "18.png": {
+        "predicted": "toco0j",
+        "confidence": 0.3885931745171547,
+        "true_label": "UNKNOWN"
+      },
+      "19.png": {
+        "predicted": "lIzii5",
+        "confidence": 0.4887212353448073,
+        "true_label": "UNKNOWN"
+      },
+      "20.png": {
+        "predicted": "c2rSMj",
+        "confidence": 0.37122216324011487,
+        "true_label": "UNKNOWN"
+      }
+    },
+    "perfect_matches": 0,
+    "known_captchas": 10,
+    "total_char_accuracy": 0.16666666666666666,
+    "avg_confidence": 0.45665820104380445,
+    "errors": [],
+    "avg_char_accuracy": 0.016666666666666666,
+    "perfect_match_rate": 0.0
+  },
+  {
+    "model_info": {
+      "path": "models\\fast_gpu\\best_model_epoch_07_acc_0.983.pth",
+      "size_mb": 130.22341346740723,
+      "hash": "f13128e5",
+      "epoch": 7,
+      "best_acc": 0.9829477220773697,
+      "char_acc": 0.996995210647583,
+      "val_loss": 0.016281173331663013,
+      "num_classes": 62,
+      "vocabulary": "62 (0-9, a-z, A-Z)"
+    },
+    "predictions": {
+      "1.png": {
+        "predicted": "JzzCTm",
+        "confidence": 0.5092219660679499,
+        "true_label": "UKhGh9",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "2.png": {
+        "predicted": "gTNNTz",
+        "confidence": 0.5412590255339941,
+        "true_label": "26WanS",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "3.png": {
+        "predicted": "11TBTm",
+        "confidence": 0.6241445715228716,
+        "true_label": "e4TkHP",
+        "char_accuracy": 0.16666666666666666,
+        "perfect_match": false
+      },
+      "4.png": {
+        "predicted": "tTLLSs",
+        "confidence": 0.5998475775122643,
+        "true_label": "cGfFE2",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "5.png": {
+        "predicted": "RzzMZ1",
+        "confidence": 0.5935578495264053,
+        "true_label": "gnRYZe",
+        "char_accuracy": 0.16666666666666666,
+        "perfect_match": false
+      },
+      "6.png": {
+        "predicted": "ezTFGH",
+        "confidence": 0.6043726752201716,
+        "true_label": "v76Ebu",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "7.png": {
+        "predicted": "Z1PFg1",
+        "confidence": 0.5584601610898972,
+        "true_label": "DUzp49",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "8.png": {
+        "predicted": "qm1FGu",
+        "confidence": 0.6985073486963908,
+        "true_label": "MWR3mw",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "9.png": {
+        "predicted": "ZzFGGe",
+        "confidence": 0.7167137215534846,
+        "true_label": "3h2vUF",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "10.png": {
+        "predicted": "BTFBmu",
+        "confidence": 0.47719432413578033,
+        "true_label": "t2md2m",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "11.png": {
+        "predicted": "ZZFCCJ",
+        "confidence": 0.4850808059175809,
+        "true_label": "UNKNOWN"
+      },
+      "12.png": {
+        "predicted": "qzsFmm",
+        "confidence": 0.5170818318923315,
+        "true_label": "UNKNOWN"
+      },
+      "13.png": {
+        "predicted": "RN1zqT",
+        "confidence": 0.4384804144501686,
+        "true_label": "UNKNOWN"
+      },
+      "14.png": {
+        "predicted": "uCTFLB",
+        "confidence": 0.5185236757000288,
+        "true_label": "UNKNOWN"
+      },
+      "15.png": {
+        "predicted": "ZzcVLu",
+        "confidence": 0.7247975418965021,
+        "true_label": "UNKNOWN"
+      },
+      "16.png": {
+        "predicted": "ezTCLH",
+        "confidence": 0.5516674766937891,
+        "true_label": "UNKNOWN"
+      },
+      "17.png": {
+        "predicted": "ZFZFNu",
+        "confidence": 0.5900418808062872,
+        "true_label": "UNKNOWN"
+      },
+      "18.png": {
+        "predicted": "BTLLGu",
+        "confidence": 0.629985436797142,
+        "true_label": "UNKNOWN"
+      },
+      "19.png": {
+        "predicted": "ZzTzT5",
+        "confidence": 0.6960680882136027,
+        "true_label": "UNKNOWN"
+      },
+      "20.png": {
+        "predicted": "Z319NZ",
+        "confidence": 0.5203033487002054,
+        "true_label": "UNKNOWN"
+      }
+    },
+    "perfect_matches": 0,
+    "known_captchas": 10,
+    "total_char_accuracy": 0.3333333333333333,
+    "avg_confidence": 0.5797654860963423,
+    "errors": [],
+    "avg_char_accuracy": 0.03333333333333333,
+    "perfect_match_rate": 0.0
+  },
+  {
+    "model_info": {
+      "path": "models\\fast_gpu\\best_model_epoch_10_acc_0.989.pth",
+      "size_mb": 130.22341346740723,
+      "hash": "95c5909a",
+      "epoch": 10,
+      "best_acc": 0.9890324547886848,
+      "char_acc": 0.9981720969080925,
+      "val_loss": 0.012908022326882929,
+      "num_classes": 62,
+      "vocabulary": "62 (0-9, a-z, A-Z)"
+    },
+    "predictions": {
+      "1.png": {
+        "predicted": "mKKmTX",
+        "confidence": 0.5535352925459543,
+        "true_label": "UKhGh9",
+        "char_accuracy": 0.16666666666666666,
+        "perfect_match": false
+      },
+      "2.png": {
+        "predicted": "gINNT1",
+        "confidence": 0.7326515366633733,
+        "true_label": "26WanS",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "3.png": {
+        "predicted": "11FNKX",
+        "confidence": 0.620754378537337,
+        "true_label": "e4TkHP",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "4.png": {
+        "predicted": "11LNI1",
+        "confidence": 0.7593179841836294,
+        "true_label": "cGfFE2",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "5.png": {
+        "predicted": "RAmM41",
+        "confidence": 0.6437605917453766,
+        "true_label": "gnRYZe",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "6.png": {
+        "predicted": "2RTTT1",
+        "confidence": 0.4883890176812808,
+        "true_label": "v76Ebu",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "7.png": {
+        "predicted": "ENFPgx",
+        "confidence": 0.585056280096372,
+        "true_label": "DUzp49",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "8.png": {
+        "predicted": "TNKWTW",
+        "confidence": 0.5708251744508743,
+        "true_label": "MWR3mw",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "9.png": {
+        "predicted": "EIFKUi",
+        "confidence": 0.49221738676230115,
+        "true_label": "3h2vUF",
+        "char_accuracy": 0.16666666666666666,
+        "perfect_match": false
+      },
+      "10.png": {
+        "predicted": "EDFmmM",
+        "confidence": 0.5267879615227381,
+        "true_label": "t2md2m",
+        "char_accuracy": 0.0,
+        "perfect_match": false
+      },
+      "11.png": {
+        "predicted": "1LENN1",
+        "confidence": 0.6243130614360174,
+        "true_label": "UNKNOWN"
+      },
+      "12.png": {
+        "predicted": "1hsFTm",
+        "confidence": 0.6232364028692245,
+        "true_label": "UNKNOWN"
+      },
+      "13.png": {
+        "predicted": "ZNmN11",
+        "confidence": 0.7276641229788462,
+        "true_label": "UNKNOWN"
+      },
+      "14.png": {
+        "predicted": "IJTFtM",
+        "confidence": 0.5704472263654073,
+        "true_label": "UNKNOWN"
+      },
+      "15.png": {
+        "predicted": "1siVmm",
+        "confidence": 0.6391064574321111,
+        "true_label": "UNKNOWN"
+      },
+      "16.png": {
+        "predicted": "JJNiTJ",
+        "confidence": 0.6030482177933058,
+        "true_label": "UNKNOWN"
+      },
+      "17.png": {
+        "predicted": "TmFPJ1",
+        "confidence": 0.6166398922602335,
+        "true_label": "UNKNOWN"
+      },
+      "18.png": {
+        "predicted": "RnmNU1",
+        "confidence": 0.6638673742612203,
+        "true_label": "UNKNOWN"
+      },
+      "19.png": {
+        "predicted": "1IA1T5",
+        "confidence": 0.6878184800346693,
+        "true_label": "UNKNOWN"
+      },
+      "20.png": {
+        "predicted": "z9E9M1",
+        "confidence": 0.47331643601258594,
+        "true_label": "UNKNOWN"
+      }
+    },
+    "perfect_matches": 0,
+    "known_captchas": 10,
+    "total_char_accuracy": 0.3333333333333333,
+    "avg_confidence": 0.6101376637816431,
+    "errors": [],
+    "avg_char_accuracy": 0.03333333333333333,
+    "perfect_match_rate": 0.0
+  }
+]
